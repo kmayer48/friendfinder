@@ -1,4 +1,4 @@
-# friendfinder
+# Friend Finder - The Office Edition
 
 ## Friend Finder is a full stack application using Node.js and Express.js.
 
