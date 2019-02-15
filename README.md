@@ -2,6 +2,8 @@
 
 ## Friend Finder is a full stack application using Node.js and Express.js.
 
+### Check out the deployed version on [Heroku!](https://intense-peak-96022.herokuapp.com/)
+
 # Prerequisites
 
     * Terminal or Gitbash
