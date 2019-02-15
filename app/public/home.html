@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Friend Finder</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Boostrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <!-- Google Fonts CDN -->
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
     <style>
         body {background-color: rgb(220,220,220);}    
@@ -24,17 +29,18 @@
 <body>
     <div class="container-fluid mx-auto">
         <div class="column">
-        <div id="intro" class="jumbotron text-center">
-            <h1>Friend Finder <i class="fas fa-search"></i></h1>
-            <h3>The Office Edition</h3>
-            <br>
-            <p class="lead">Answer a few basic questions about yourself and get paired with a charcter from The Office!</p>
+            <div id="intro" class="jumbotron text-center">
+                <h1>Friend Finder <i class="fas fa-search"></i></h1>
+                <h3>The Office Edition</h3>
+                <br>
+                <p class="lead">Answer a few basic questions about yourself and get paired with a charcter from The
+                    Office!</p>
                 <iframe src="https://giphy.com/embed/2KL3lBdBTFxOo" frameBorder="0"></iframe>
                 <br>
                 <a href="/survey">
-                <button type="button" class="btn btn-success mt-4">Start your Questionaire!</button></a>
+                    <button type="button" class="btn btn-success mt-4">Start your Questionaire!</button></a>
             </div>
-    </div>
+        </div>
         <footer>
             <p>
                 <a href="/api/friends" target="blank">API Friends List </a>
@@ -43,7 +49,7 @@
             </p>
         </footer>
     </div>
-</div>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="./assets/js/logic.js"></script>
