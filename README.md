@@ -12,7 +12,7 @@
 
 # Instructions
 
-#### Enter `node server.js` in either Terminal or Gitbash to install neccessary packages to run this application.
+#### Enter `node server.js` in either Terminal or Gitbash to intialize the server.
 
 ![](https://github.com/kmayer48/friendfinder/blob/master/gifs/cli.gif)
 
